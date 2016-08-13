@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'taxJS.js' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\package.json
+5 verbose readDependencies loading dependencies from D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\package.json
+6 silly cache add args [ 'taxJS.js', null ]
+7 verbose cache add spec taxJS.js
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'taxJS.js',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'taxJS.js',
+8 silly cache add   spec: 'D:\\XAAMP\\htdocs\\Projects\\taxJSProject\\JS\\lib\\taxJS.js',
+8 silly cache add   type: 'local' }
+9 silly addLocalTarball shasum (computed) 5ad9b45a00949dcb4d405818e6fde9f906c184ef
+10 verbose addTmpTarball D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\taxJS.js not in flight; adding
+11 verbose correctMkdir C:\Users\Patryk\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+12 verbose addTmpTarball validating metadata from D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\taxJS.js
+13 verbose tar unpack D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\taxJS.js
+14 verbose tar unpacking to C:\Users\Patryk\AppData\Local\Temp\npm-2344-c5ffe91e\unpack-b1613f7c746c
+15 silly gentlyRm C:\Users\Patryk\AppData\Local\Temp\npm-2344-c5ffe91e\unpack-b1613f7c746c is being purged
+16 verbose gentlyRm don't care about contents; nuking C:\Users\Patryk\AppData\Local\Temp\npm-2344-c5ffe91e\unpack-b1613f7c746c
+17 silly gunzTarPerm modes [ '777', '666' ]
+18 error not a package D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\taxJS.js
+19 error addLocal Could not install D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib\taxJS.js
+20 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Patryk\AppData\Local\Temp\npm-2344-c5ffe91e\unpack-b1613f7c746c\package.json'
+20 verbose stack     at Error (native)
+21 verbose cwd D:\XAAMP\htdocs\Projects\taxJSProject\JS\lib
+22 error Windows_NT 6.1.7601
+23 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "taxJS.js"
+24 error node v4.4.7
+25 error npm  v2.15.8
+26 error path C:\Users\Patryk\AppData\Local\Temp\npm-2344-c5ffe91e\unpack-b1613f7c746c\package.json
+27 error code ENOENT
+28 error errno -4058
+29 error syscall open
+30 error enoent ENOENT: no such file or directory, open 'C:\Users\Patryk\AppData\Local\Temp\npm-2344-c5ffe91e\unpack-b1613f7c746c\package.json'
+30 error enoent This is most likely not a problem with npm itself
+30 error enoent and is related to npm not being able to find a file.
+31 verbose exit [ -4058, true ]
